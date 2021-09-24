@@ -5,6 +5,8 @@
     "NEO",
     "SOL",
     "AAVE",
+    "DASH",
+    "DOT",
     "BCH",
     "LINK",
     "SALT",
@@ -4631,13 +4633,35 @@
         "order": 10
       }
     },
-    {
+      {
+      "pair": [
+        "USDT",
+        "DASH"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+      {
+      "pair": [
+        "USDT",
+        "DOT"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+      {
       "pair": [
         "USDT",
         "ETH"
       ],
       "minimalOrder": {
-        "amount": 0.00001,
+        "amount": 0.001,
         "price": 0.01,
         "order": 10
       }
