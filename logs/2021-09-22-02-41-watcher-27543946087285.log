@@ -1,0 +1,16 @@
+2021-09-22 02:41:08 (INFO):	Setting up Gekko in realtime mode
+2021-09-22 02:41:08 (INFO):	
+2021-09-22 02:41:08 (INFO):	Setting up:
+2021-09-22 02:41:08 (INFO):		 Candle writer
+2021-09-22 02:41:08 (INFO):		 Store candles in a database
+2021-09-22 02:41:08 (INFO):	
+
+2021-09-22 02:41:08 (INFO):	Setting up:
+2021-09-22 02:41:08 (INFO):		 Child to parent
+2021-09-22 02:41:08 (INFO):		 Relays events from the child to the parent process
+2021-09-22 02:41:08 (INFO):	
+
+2021-09-22 02:41:08 (INFO):	Starting to watch the market: Binance AAVE/USDT
+2021-09-22 02:41:08 (DEBUG):	scheduling ticks
+2021-09-22 02:41:08 (DEBUG):	Requested AAVE/USDT trade data from Binance ...
+2021-09-22 02:41:09 (DEBUG):	Processing 500 new trades. From 2021-09-22 02:28:27 UTC to 2021-09-22 02:40:57 UTC. (13 minutes)
