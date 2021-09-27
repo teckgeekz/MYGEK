@@ -11,11 +11,11 @@ var log = require('../core/log.js');
 
 var RSI = require('./indicators/RSI.js');
 
-// let's create our own method
-var method = {};
+// let's create our own strategy
+var strategy = {};
 
-// prepare everything our method needs
-method.init = function() {
+// prepare everything our strategy needs
+strategy.init = function() {
   this.interval = this.settings.interval;
 
   this.trend = {
@@ -34,7 +34,7 @@ method.init = function() {
 }
 
 // what happens on every new candle?
-method.update = function(candle) {
+strategy.update = function(candle) {
 	this.rsi = this.indicators.rsi.result;
 
 	this.RSIhistory.push(this.rsi);
@@ -50,7 +50,7 @@ method.update = function(candle) {
 
 // for debugging purposes log the last
 // calculated parameters.
-method.log = function() {
+strategy.log = function() {
   var digits = 8;
 
   log.debug('calculated StochRSI properties for candle:');
@@ -60,7 +60,7 @@ method.log = function() {
 	log.debug("StochRSI Value:\t\t" + this.stochRSI.toFixed(2));
 }
 
-method.check = function() {
+strategy.check = function() {
 	if(this.stochRSI > this.settings.thresholds.high) {
 		// new trend detected
 		if(this.trend.direction !== 'high')
@@ -118,4 +118,4 @@ method.check = function() {
 
 }
 
-module.exports = method;
+module.exports = strategy;
