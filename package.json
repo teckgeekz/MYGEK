@@ -62,7 +62,8 @@
     "marked": "^0.3.19",
     "quasar-cli": "^0.15.14",
     "superagent": "^3.8.3",
-    "superagent-no-cache": "^0.1.1"
+    "superagent-no-cache": "^0.1.1",
+    "joi": "^17.4.2"
   },
   "engines": {
     "node": ">=8.11.2",
