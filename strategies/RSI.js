@@ -11,11 +11,11 @@ var log = require('../core/log.js');
 
 var RSI = require('./indicators/RSI.js');
 
-// let's create our own method
-var method = {};
+// let's create our own strategy
+var strategy = {};
 
-// prepare everything our method needs
-method.init = function() {
+// prepare everything our strategy needs
+strategy.init = function() {
   this.name = 'RSI';
 
   this.trend = {
@@ -33,7 +33,7 @@ method.init = function() {
 
 // for debugging purposes log the last
 // calculated parameters.
-method.log = function(candle) {
+strategy.log = function(candle) {
   var digits = 8;
   var rsi = this.indicators.rsi;
 
@@ -42,7 +42,7 @@ method.log = function(candle) {
   log.debug('\t', 'price:', candle.close.toFixed(digits));
 }
 
-method.check = function() {
+strategy.check = function() {
   var rsi = this.indicators.rsi;
   var rsiVal = rsi.result;
 
@@ -102,4 +102,4 @@ method.check = function() {
   }
 }
 
-module.exports = method;
+module.exports = strategy;
