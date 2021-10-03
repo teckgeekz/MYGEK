@@ -3,6 +3,7 @@
     "NULS",
     "BNB",
     "NEO",
+    "BNT",
     "OMG",
     "MDX",
     "SOL",
@@ -166,6 +167,7 @@
     "TUSD",
     "PAX",
     "USDC",
+    "BUSD",
     "XRP"
   ],
   "markets": [
@@ -4672,6 +4674,28 @@
       "pair": [
         "USDT",
         "MDX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BNT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "BUSD",
+        "BNB"
       ],
       "minimalOrder": {
         "amount": 0.1,
