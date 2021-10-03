@@ -3,6 +3,8 @@
     "NULS",
     "BNB",
     "NEO",
+    "OMG",
+    "MDX",
     "SOL",
     "AAVE",
     "DASH",
@@ -714,6 +716,17 @@
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "OMG"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
         "order": 10
       }
     },
@@ -4655,7 +4668,18 @@
         "order": 10
       }
     },
-      {
+     {
+      "pair": [
+        "USDT",
+        "MDX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+     {
       "pair": [
         "USDT",
         "ETH"
