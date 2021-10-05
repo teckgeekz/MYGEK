@@ -7,6 +7,7 @@
     "OMG",
     "MDX",
     "SOL",
+    "COMP",
     "AAVE",
     "DASH",
     "DOT",
@@ -4674,6 +4675,17 @@
       "pair": [
         "USDT",
         "MDX"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "COMP"
       ],
       "minimalOrder": {
         "amount": 0.1,
