@@ -39,7 +39,9 @@ method.init = function(doAdvise = true) {
 
   // define the indicators we need
   // this.addTalibIndicator('customPPO', 'ppo', this.settings.PPO);
-  this.addTalibIndicator('customRSI', 'rsi', this.settings.RSI);
+ // this.addTalibIndicator('customRSI', 'rsi', this.settings.RSI);
+  
+  this.addTalibIndicator('rsi', 'RSI', this.settings.RSI);
 
   log.debug("RSI Settings", this.settings.RSI);
 }
