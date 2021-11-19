@@ -151,6 +151,7 @@
     "WINGS",
     "WPR",
     "XEM",
+    "QUICK",
     "XLM",
     "XMR",
     "XRP",
@@ -4697,6 +4698,17 @@
       "pair": [
         "BUSD",
         "BNT"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "QUICK"
       ],
       "minimalOrder": {
         "amount": 0.1,
