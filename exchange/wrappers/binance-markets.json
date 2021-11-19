@@ -152,6 +152,7 @@
     "WPR",
     "XEM",
     "QUICK",
+    "MATIC",
     "XLM",
     "XMR",
     "XRP",
@@ -4709,6 +4710,17 @@
       "pair": [
         "USDT",
         "QUICK"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "MATIC"
       ],
       "minimalOrder": {
         "amount": 0.1,
